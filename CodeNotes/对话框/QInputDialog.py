@@ -45,7 +45,7 @@ class MainWindow(QWidget):
     def getInt(self):
         num,state = QInputDialog.getInt(self,"整数输入框","请输入整数")
         if state:
-            self.lineEdit2.setText(str(num))
+            self.lineEdit3.setText(str(num))
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
