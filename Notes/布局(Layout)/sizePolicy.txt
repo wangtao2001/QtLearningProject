@@ -1,0 +1,21 @@
+尺寸策略（sizePolicy）：对应属性中sizePolicy这一项
+
+期望尺寸（sizeHint）:默认尺寸
+对大多数组件来说这一尺寸是只读的
+    self.pushBotton.sizeHint().width()
+    self.pushBotton.sizeHint().height()
+最小期望尺寸（minimumSizeHint）:
+同期望尺寸大多数组件值相同
+    self.pushBotton.minimumSizeHint().width()
+    self.pushBotton.minimumSizeHint().height()
+
+
+**Fixed：窗口控件具有其sizeHint所提示的尺寸且尺寸不会再改变；
+Minimum：窗口控件的sizeHint所提示的尺寸就是它的最小尺寸，该窗口控件不能压缩的比这个值小，但可以变得更大；
+Maximum：窗口控件的sizeHint所提示的尺寸就是它的最大尺寸，该窗口控件不能变得比这个值大，但它可以被压缩到minisizeHint给定的尺寸大小；
+Preferred：窗口控件的sizeHint所提示的尺寸就是它的期望尺寸，该窗口控件可以缩小到minisizeHint所提示的尺寸，也可以变得比sizeHint所提示的尺寸还大；
+**Expanding：窗口控件可以缩小到minisizeHint所提示的尺寸，也可以变得比sizeHint所提示的尺寸大，但它希望能变得更大；
+MinimumExpanding：窗口控件的sizeHint所提示的尺寸就是它的最小尺寸，该窗口控件不能被压缩得比这个值还小，但它希望能够变得更大；
+Ignored：无视窗口控件的sizeHint和minisizeHint所提示的尺寸，按照默认来设置。
+
+延展（伸缩因子）可以用来说明在增大窗体时，对不同的窗口部件应使用的不同放大比例。

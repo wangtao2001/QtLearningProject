@@ -1,0 +1,13 @@
+QT中有三种窗口：
+
+QMainWindow：主窗口
+包含菜单栏、工具栏、标题栏、状态栏
+
+QDialog：对话窗口的基类
+提供短期功能，没有菜单栏、工具栏、标题栏
+QMessageBox
+QColorDialog
+QFileDialog
+QInputDialog
+
+QWeight：既可以代替主窗口也可以代替对话窗口

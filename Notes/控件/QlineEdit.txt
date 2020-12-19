@@ -1,0 +1,11 @@
+QLineEdit（输入单行文本）
+
+4种EchoMode（回显模式）：
+1.Normal（正常模式）
+2.NoEcho（不回显）：例如在Linux命令行中输入密码时，不会显示所输密码的
+3.Password（密码模式）：只回显·符号
+4.PasswordEchoOnEdit（只在编辑回显）
+
+可以通过校验器（Validator）和掩码（Mask）（相当于占位符）控制输入
+
+掩码设置 ：LineEdit().stInputMask(掩码)
