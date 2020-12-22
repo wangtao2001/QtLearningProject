@@ -41,7 +41,7 @@ class MainWindow(QWidget):
     #########################
     def loadText(self):
         dialog = QFileDialog()
-        dialog.setFileMode(QFileDialog.AnyFile)
+        dialog.setFileMode(QFileDialog.AnyFile)#设置打开文件类型这里是所有文件
         dialog.setFilter(QDir.Files)
         if dialog.exec():
             filenames = dialog.selectedFiles()

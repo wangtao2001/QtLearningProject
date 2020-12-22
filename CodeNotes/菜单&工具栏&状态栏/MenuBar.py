@@ -1,5 +1,5 @@
 '''
-创建和使用菜单
+创建和使用菜单：菜单是菜单和动作Action的集合
 创建动作
 动作触发槽
 '''
@@ -22,18 +22,18 @@ class MainWindow(QMainWindow):
         save = QAction("保存",self)#另一种方式
         save.setShortcut("Ctrl+S")
         file.addAction(save)
-        _exit = QAction("退出",self)
-        _exit.setShortcut("Ctrl+E")
-        file.addAction(_exit)
+        exit_ = QAction("退出",self)
+        exit_.setShortcut("Ctrl+E")
+        file.addAction(exit_)
 
         new.triggered.connect(self.printText)#动作被触发时绑定槽会出入一个布尔量
         save.triggered.connect(self.printText)
-        _exit.triggered.connect(self._exitAction)
+        exit_.triggered.connect(self.exitAction)
 
     def printText(self,bool):
         print(self.sender().text())
 
-    def _exitAction(self,bool):
+    def exitAction(self,bool):
         app.exit()#退出   
 
 if __name__ == '__main__':
