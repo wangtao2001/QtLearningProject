@@ -1,6 +1,6 @@
 **PyQt**是Python语言的GUI编程解决方案之一。可以用来代替Python内置标准库Tkinter。
 
-此仓库存放的是来源于*bilibili*的PyQt5视频教程的课程笔记：[视频链接]([PyQt5教程，来自网易云课堂_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/BV154411n79k))。原课程来源于[网易云课堂]([网易云课堂 - 我的职业课堂 (163.com)](https://study.163.com/))。
+此仓库存放的是来源于*bilibili*的PyQt5视频教程的课程笔记：[视频链接](https://www.bilibili.com/video/BV154411n79k)。原课程来源于[网易云课堂](https://study.163.com/)。
 
 目前仍然在持续更新。
 
