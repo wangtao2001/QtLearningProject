@@ -32,7 +32,7 @@ class MainWindow(QMainWindow):
         self.setWindowIcon(QIcon("D:\Python\GUI\QtDesigner\ico\computer.ico"))     
 
     def init_widget(self):#创建控件
-        font = QFont("华文中宋",20)      
+        font = QFont("等线",20)      
         self.button_one = QPushButton()
         self.button_one.setText("1")
         self.button_one.setFont(font)
@@ -91,7 +91,7 @@ class MainWindow(QMainWindow):
         self.button_right_bracket.setText(")")
         self.button_right_bracket.setFont(font)
         self.button_back = QPushButton()
-        self.button_back.setText("←")
+        self.button_back.setText("Back")
         self.button_back.setFont(font)
         self.button_sin = QPushButton()
         self.button_sin.setText("sin")
@@ -109,7 +109,7 @@ class MainWindow(QMainWindow):
         self.button_e.setText("e")
         self.button_e.setFont(font)
         
-        font = QFont("华文中宋",30)
+        font = QFont("等线",30)
         self.label = QLabel()
         self.label.setFont(font)
     
