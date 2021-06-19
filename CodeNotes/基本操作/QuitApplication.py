@@ -3,7 +3,7 @@
 初步体验加载组件和使用信号槽
 '''
 import sys
-from PyQt5.QtWidgets import QMainWindow,QApplication,QDesktopWidget#主窗口、应用程序、显示器
+from PyQt5.QtWidgets import QMainWindow,QApplication#主窗口、应用程序、显示器
 from PyQt5.QtWidgets import QHBoxLayout,QWidget,QPushButton#水平布局、控件、按钮
 
 #####################

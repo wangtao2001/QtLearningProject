@@ -4,7 +4,7 @@
 使用面向过程方式
 '''
 import sys
-from PyQt5.QtWidgets import QWidget,QApplication,QDesktopWidget#窗口、应用程序、显示器
+from PyQt5.QtWidgets import QWidget,QApplication#窗口、应用程序、显示器
 from PyQt5.QtWidgets import QPushButton#按钮
 
 app = QApplication(sys.argv)

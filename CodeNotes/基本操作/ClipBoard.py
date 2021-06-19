@@ -1,6 +1,6 @@
-'''
+"""
 使用剪贴板 传递图片、文本
-'''
+"""
 from PyQt5.QtWidgets import  QApplication,QWidget,QPushButton,QLabel,QGridLayout
 from PyQt5.QtGui import QPixmap
 import sys
