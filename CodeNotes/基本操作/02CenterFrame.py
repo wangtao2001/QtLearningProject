@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-手动居中布局：屏幕坐标系-窗口坐标系
+2.手动居中布局：屏幕坐标系-窗口坐标系
 """
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication, QDesktopWidget  # 主窗口、应用程序、显示器类
