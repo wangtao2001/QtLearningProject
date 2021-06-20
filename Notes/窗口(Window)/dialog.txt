@@ -1,0 +1,7 @@
+对话框 QDialog 基类
+
+QMessageBox  消息对话框
+QColorDialog  颜色对话框
+QFileDialog  文件对话框
+QFontDialog  字体设置对话框
+QInputDialog  输入对话框

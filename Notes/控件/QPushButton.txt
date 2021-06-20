@@ -2,7 +2,7 @@ QPushButton（按钮）
 
 四种按钮：
 QPushButton  （按钮）
-AToolButton  
+AToolButton  （工具条按钮）
 QRadioButton  （单选按钮）
 QCheckBox   （复选按钮）
 都基于父类QAbstractButton
